@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./plugins/animate/animate.min.css">
+    <link rel="stylesheet" href="./plugins/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./plugins/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../../assets/images/favicon.png">
+    <title>CoolNotCool</title>
+</head>
+<body>
+    <section>
+        <div id="loaderDiv" class="container-4">
+
+        </div>
+    </section>
+    <section>
+        <i class="fas fa-js    "></i>
+        <div class="container " id="introDiv">
+            <div class="items wow bounceInDown">
+                <div class="contentsDiv">
+                    <div class="picDiv">
+                        <img src="./images/Security_Isometric.svg" width="100%" alt="">
+                    </div>
+                    <div class="likedDiv">
+                       <div class="roll">
+                        <h1>QUIZ CARDS</h1>
+                        <p>You finished the first set of quiz cards</p>
+                        <!-- <button><i class="fa fa-facebook"></i></button>
+                        <button><i class="fa fa-instagram"></i></button>
+                        <button><i class="fa fa-music"></i></button> -->
+
+                        <button id="clickBtn">Keep Playing</button>
+                        <!-- <button>Get Involved</button> -->
+                       </div>
+                    </div>
+                    <div class="linkDiv">
+                        <button>
+                        <a href="../../index.html"> <span>Back to Home</span></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-2 " id="quizDiv">
+            <div id="cele" class="item-2">
+                <p id="currentNumberPara" class="currentNumberPara">1</p>
+                <div class="icon-1" id="thumbsUp">
+                    <!-- <i class="fa fa-thumbs-up"></i> -->
+                    <i class="fas fa-heart"></i>
+                    <p>COOL</p>
+                </div>
+                <div  class="contentDiv2">
+                    <div id="iConSpecial" class="itemed">
+              
+                    
+                    </div>
+                    <div class="itemed">
+                        <p id="para" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi dolorum maxime earum iste eum non qui quos voluptatem repudiandae iusto!</p>
+                    </div>
+                    <div class="itemed"><img id="imged" src="./images/Security_Outline.svg" width="100%" height="100%" alt="" class="imged"></div>
+                </div>
+                <div class="icon-2" id="thumbsDown">
+                    <i class="fa fa-thumbs-down"></i>
+                    <!-- <i class="fas fa-heart"></i> -->
+                    <p>NOT COOL</p>
+
+                </div>
+            </div>
+        </div>
+        <div id="answerDiv" class="container-3">
+            <div class="item-3">
+                <div id="iConSpecial" class="itemedee">
+                  
+                
+                </div>
+                <div class="itemedee">
+                    <i id="thumbsDownIcon" class="fas fa-thumbs-down thumb-2"></i>
+                    <p class="correctAnswerPara" id="correctAnswerPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sapiente aliquid reprehenderit.</p>
+                    <div class="progress">
+                        <div class="progress-bar" id="progress-bar"></div>
+                    </div>
+                    <i id="thumbsUpIcon" class="fas fa-thumbs-up thumb-1"></i>
+                    <p id="thumbsUpPara" class="thumbsUpPara">80</p>
+                    <p id="thumbsDownPara" class="thumbsDownPara">20</p>
+                </div>
+                <div class="itemedee">
+                    <h4 class="head">YOU SAID THAT WAS</h4>
+                    <h1 id="word" class="word"> WAS COOL</h1>
+                    <p id="answer" class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto rem fugit, cupiditate nulla non, sunt velit perferendis consequuntur qui illo repellat inventore fuga libero tenetur soluta, obcaecati cum corporis maiores!</p>
+                
+                    <div class="array">
+                        <button id="backNext" class="bub">BACK</button>
+                        <button id="nextBtn" class="bub">NEXT</button>
+                      
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+    
+    <script src="./app.js"></script>
+    <script src="./plugins/wow/wow.min.js"></script>
+    <script>
+        new WOW().init()
+    </script>
+</body>
+</html>

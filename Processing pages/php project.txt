@@ -1,0 +1,6 @@
+<i class="icon-calendar icon-large"></i>
+                <?php
+                $Today = date('y:m:d',mktime());
+                $new = date('l, F d, Y', strtotime($Today));
+                echo $new;
+                ?><br><br>
